@@ -1,0 +1,6 @@
+use("sample_mflix") //conectar a la base de datos dentro de mi cluster
+
+
+db.movies.find({"genres":"Animation"}) //coleccion peliculas
+
+//db.movies.find({"genres":"Animation"}).count()//contar cuantos documentos cumplen con este query
